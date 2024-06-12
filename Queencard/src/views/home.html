@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+<link rel="icon" href="/Queencard/src/imagens/logo.png" type="image/x-icon">
+</head>
+<title>QueenCard</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 20px;
+    padding-bottom: 0;
+  }
+
+  h1 {
+    font-size: 130px;
+    padding: 50px;
+    margin-right: 20px;
+    flex: 1;
+    font-family: "Cinzel", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #000000;
+  }
+
+  img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .button {
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #ff00b3a4;
+    color: rgb(255, 254, 254);
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    margin-right: 30px;
+    font-weight: bold;
+    font-family: "Cinzel", cursive;
+  }
+
+  .navbar {
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+    padding: 10px;
+    text-align: left;
+    font-family: "Cinzel", cursive;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-end;
+  }
+
+  .navbar a {
+    color: rgb(255, 255, 255);
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  .navbar a:hover {
+    background-color: #252525;
+    color: rgb(255, 255, 255);
+  }
+</style>
+</head>
+<body background="/Queencard/src/imagens/fundo-home.gif">
+
+<div class="navbar">
+    <div> 
+        <a href="/Queencard/src/views/autenticacao.html">Área do Funcionário</a>
+        <a href="#sobre">Informações de contato</a>
+        <a href="#servicos">Sobre nós</a>
+    </div>
+    <a href="/Queencard/src/views/login.html" class="button">Entrar</a>
+</div>
+
+<div class="container">
+  <h1>QueenCard</h1>
+  <img src="/Queencard/src/imagens/logo.png" alt="Descrição da Imagem">
+</div>
+
+</body>
+</html>
